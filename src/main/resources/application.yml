@@ -1,8 +1,8 @@
 spring:
   datasource:
-    url: postgresql://postgres:bRJYDPfrciGZcxMmcYqpoELiyZqgKVMO@postgres.railway.internal:5432/railway
+    url: jdbc:postgresql://db.marufdbvqdmvgzktnmmc.supabase.co:5432/postgres?sslmode=require&currentSchema=admincrm
     username: postgres
-    password: bRJYDPfrciGZcxMmcYqpoELiyZqgKVMO
+    password: postgres!@#$
     driver-class-name: org.postgresql.Driver
 
   jpa:
@@ -41,3 +41,5 @@ jwt:
   expiration: 3600000
 refresh-token:
   expiration: 604800000
+file:
+  upload-dir: uploads/company
