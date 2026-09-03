@@ -41,3 +41,5 @@ jwt:
   expiration: 3600000
 refresh-token:
   expiration: 604800000
+file:
+  upload-dir: uploads/company

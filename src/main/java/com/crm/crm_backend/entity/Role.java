@@ -7,7 +7,7 @@ import lombok.Getter;
 import lombok.Setter;
 
 @Entity
-@Table(name = "roles", schema = "admincrm")
+@Table(name = "roles")
 public class Role extends AuditableEntity {
 
 	@Column(name = "role_name", nullable = false, unique = true)
